@@ -1,0 +1,2 @@
+Spool and run the Metasploit NFS Mount Scanner (auxiliary/scanner/nfs/nfsmount).:
+grep [+] nfsmount_spool_file | awk -F: '{print $1,$3}' | awk -F' ' '{print $2,$3}' | sed 's/ /:/g' > feed_to_script.txt
