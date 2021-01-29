@@ -1,3 +1,10 @@
 Whatweb -- to check web server version and tons of infomration 
 Weppalyzer - browser plugin to found all the version of the js, server, jquery etc. 
 subbrute.py - for subdomain searching 
+theHarvester - 
+                  -d    domain to search
+                  -l limit the result to work with 
+                  -b data source (bing, google, linkedin, pgp, all, ...)
+                  -f output to HTML or XML file 
+     theharvester -d microsoft.com -b google -l 200 -f /root/Desktop/result.html   
+               
