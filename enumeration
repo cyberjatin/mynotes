@@ -1,2 +1,3 @@
 Whatweb -- to check web server version and tons of infomration 
 Weppalyzer - browser plugin to found all the version of the js, server, jquery etc. 
+subbrute.py - for subdomain searching 
