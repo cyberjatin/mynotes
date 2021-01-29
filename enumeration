@@ -7,4 +7,4 @@ theHarvester -
                   -b data source (bing, google, linkedin, pgp, all, ...)
                   -f output to HTML or XML file 
      theharvester -d microsoft.com -b google -l 200 -f /root/Desktop/result.html   
-               
+Fierce          fierce --dns webapplicationurl.com  (to find Virtual host)         
