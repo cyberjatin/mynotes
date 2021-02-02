@@ -8,3 +8,4 @@ theHarvester -
                   -f output to HTML or XML file 
      theharvester -d microsoft.com -b google -l 200 -f /root/Desktop/result.html   
 Fierce          fierce --dns webapplicationurl.com  (to find Virtual host)         
+SWFInvestigator - Flash assembling - Deassembling, SWF Tag Viewing, LSO (Local Shared Object) analysis, Dynamic Function calling.
