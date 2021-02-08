@@ -10,3 +10,4 @@ theHarvester -
 Fierce          fierce --dns webapplicationurl.com  (to find Virtual host)         
 SWFInvestigator - Flash assembling - Deassembling, SWF Tag Viewing, LSO (Local Shared Object) analysis, Dynamic Function calling.
 xpath-blind-explorer, Xcat (https://github.com/orf/xcat)  -  Testing for XPath Injection 
+wp scan (https://github.com/wpscanteam/wpscan) - wordpress 
