@@ -1,1 +1,12 @@
-CouchDB - _all_docs  and _Changes (In search or any other input feild which intract with NOSQL error) 
+CouchDB - 
+
+_all_docs  and _Changes (In search or any other input feild which intract with NOSQL error) 
+
+CouchDB 1.x
+curl -s -X PUT http://localhost:5984/_config_/admins/ob -d '"123456"'    (to add new admin in the REST API) 
+
+CouchDB 2.x
+curl -X PUT $HOST/_node/$NODENAME/_config/admins/root -d '"Super_Secret"'
+default node "nonode@nohost", try "couchdb@localhost" this as well 
+Check all node using curl -X GET $HOST/_membership
+
