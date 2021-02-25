@@ -15,3 +15,4 @@ plecost - wordpress plugin enumeration
 wordpress login brute force (https://github.com/atarantini/wpbf)  , wpforce.py, yertle.py (intractive shell) 
 Joomlascan (https://github.com/OWASP/joomscan), Joomla Brute force (https://github.com/0rbz/JoomBrute), adding administrator (https://github.com/XiphosResearch/exploits/tree/master/Joomraa)
 NoSQl - Mongodb(https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/mongodb-security-weaknesses-in-a-typical-nosql-database/)
+Custom word list generator (https://digi.ninja/projects/cewl.php#download)
