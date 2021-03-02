@@ -10,3 +10,4 @@ curl -X PUT $HOST/_node/$NODENAME/_config/admins/root -d '"Super_Secret"'
 default node "nonode@nohost", try "couchdb@localhost" this as well 
 Check all node using curl -X GET $HOST/_membership
 
+Piggyback (Memcached) injection - https://www.blackhat.com/docs/us-14/materials/us-14-Novikov-The-New-Page-Of-Injections-Book-Memcached-Injections-WP.pdf
