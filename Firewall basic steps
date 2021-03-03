@@ -1,0 +1,13 @@
+Console access --> configuration  --> IPadress and Default gateway (commit) --> access the same using web
+change the password (Device -administrators) --> Configure DNS & NTP server (Device-->setup)
+DO NOT FORGET TO COMMIT 
+
+Change Hostnmae -> setup doain -? Login Banner - > Time --> Latitude & Laugitute
+Check License (Retrive License) Commit --> check software version latest --> Dynamic Update
+
+Zone Protection Profile setup --> SYN, ICMP, UDP etc.
+Reconnaissance Protection and other IP Packet protection 
+
+Create ZONE - Internal, External & DMZ (etc) 
+
+
