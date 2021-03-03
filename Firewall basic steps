@@ -9,5 +9,6 @@ Zone Protection Profile setup --> SYN, ICMP, UDP etc.
 Reconnaissance Protection and other IP Packet protection 
 
 Create ZONE - Internal, External & DMZ (etc) 
+Setup Interface for external, internal and DMZ 
 
 
