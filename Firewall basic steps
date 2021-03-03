@@ -11,4 +11,16 @@ Reconnaissance Protection and other IP Packet protection
 Create ZONE - Internal, External & DMZ (etc) 
 Setup Interface for external, internal and DMZ 
 
+Object for DC1, DC2, FTP, DMZ and domain name etc.
+Add group to add above like DC1 adn DC2
 
+service configure name with PORT (refer in policy) 
+
+configure: Antivirus, antispyware, Vulnerability Protection, URL Filtering, File Blocking (Wildfire) 
+Club above to Security Profile Group and name it (Commit) 
+
+configure virtual router --> static routes (IPv4) Default gateway 
+
+NAT configuration for Internal to external
+
+Security poliy --> first rule should be explict deny rule 
