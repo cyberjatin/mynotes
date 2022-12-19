@@ -1,0 +1,7 @@
+msf > use auxiliary/scanner/ssh/ssh_login
+set USERPASS_FILE /usr/share/metasploit-framework/data/wordlists/root_userpass.txt
+(https://charlesreid1.com/wiki/Metasploitable/SSH/Exploits#Metasploit_ssh_login)
+
+
+
+
